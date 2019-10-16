@@ -1,68 +1,189 @@
 fileFormatVersion: 2
 guid: 53aa796709727424d9471dbd13ce32ed
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: La nina_GO/La nina_GO
-    100002: La nina_GO/La nina_GO/Layer 2 Copy 2
-    100004: La nina_GO/La nina_GO/Muslo derecho
-    100006: La nina_GO/La nina_GO/Muslo izquierdo
-    100008: La nina_GO/La nina_GO/Pata derecha
-    100010: La nina_GO/La nina_GO/Pata izquierda
-    100012: La nina_GO/La nina_GO/Pelusita de brazo
-    100014: La nina_GO/La nina_GO/Pierna derecha
-    100016: La nina_GO/La nina_GO/Pierna izquierda
-    100018: La nina_GO/La nina_GO/bone_1
-    100020: La nina_GO/La nina_GO/bone_1/bone_2
-    100022: La nina_GO/La nina_GO/bone_1/bone_3
-    100024: La nina_GO/La nina_GO/bone_1/bone_3/bone_4
-    100026: La nina_GO/La nina_GO/bone_1/bone_3/bone_4/bone_5
-    100028: La nina_GO/La nina_GO/bone_1/bone_6
-    100030: La nina_GO/La nina_GO/bone_1/bone_6/bone_7
-    100032: La nina_GO/La nina_GO/bone_1/bone_6/bone_7/bone_8
-    400000: La nina_GO/La nina_GO/Transform
-    400002: La nina_GO/La nina_GO/Layer 2 Copy 2/Transform
-    400004: La nina_GO/La nina_GO/Muslo derecho/Transform
-    400006: La nina_GO/La nina_GO/Muslo izquierdo/Transform
-    400008: La nina_GO/La nina_GO/Pata derecha/Transform
-    400010: La nina_GO/La nina_GO/Pata izquierda/Transform
-    400012: La nina_GO/La nina_GO/Pelusita de brazo/Transform
-    400014: La nina_GO/La nina_GO/Pierna derecha/Transform
-    400016: La nina_GO/La nina_GO/Pierna izquierda/Transform
-    400018: La nina_GO/La nina_GO/bone_1/Transform
-    400020: La nina_GO/La nina_GO/bone_1/bone_2/Transform
-    400022: La nina_GO/La nina_GO/bone_1/bone_3/Transform
-    400024: La nina_GO/La nina_GO/bone_1/bone_3/bone_4/Transform
-    400026: La nina_GO/La nina_GO/bone_1/bone_3/bone_4/bone_5/Transform
-    400028: La nina_GO/La nina_GO/bone_1/bone_6/Transform
-    400030: La nina_GO/La nina_GO/bone_1/bone_6/bone_7/Transform
-    400032: La nina_GO/La nina_GO/bone_1/bone_6/bone_7/bone_8/Transform
-    2800000: La nina
-    11400000: La nina_GO/La nina_GO/Layer 2 Copy 2/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400002: La nina_GO/La nina_GO/Muslo derecho/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400004: La nina_GO/La nina_GO/Muslo izquierdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400006: La nina_GO/La nina_GO/Pata derecha/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400008: La nina_GO/La nina_GO/Pata izquierda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400010: La nina_GO/La nina_GO/Pelusita de brazo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400012: La nina_GO/La nina_GO/Pierna derecha/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400014: La nina_GO/La nina_GO/Pierna izquierda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    21200000: La nina_GO/La nina_GO/Layer 2 Copy 2/SpriteRenderer
-    21200002: La nina_GO/La nina_GO/Muslo derecho/SpriteRenderer
-    21200004: La nina_GO/La nina_GO/Muslo izquierdo/SpriteRenderer
-    21200006: La nina_GO/La nina_GO/Pata derecha/SpriteRenderer
-    21200008: La nina_GO/La nina_GO/Pata izquierda/SpriteRenderer
-    21200010: La nina_GO/La nina_GO/Pelusita de brazo/SpriteRenderer
-    21200012: La nina_GO/La nina_GO/Pierna derecha/SpriteRenderer
-    21200014: La nina_GO/La nina_GO/Pierna izquierda/SpriteRenderer
-    21300000: 948d1a5d73f90534bb2490ddc139deef
-    21300002: 3bb443c76dc62914b984ec33325473c0
-    21300004: 6b19a257039b87d4c965f45fb5a6d680
-    21300006: f8ac3935a1ddfe14a832e2a4502cafcc
-    21300008: e3a726281d8dac44e8f88d2d8df8e206
-    21300010: 62ea738ffb2ec4e4daf15da9b69dd4e5
-    21300012: 269e87d32cf01304ab3ded883c7fc50c
-    21300014: 78ae0d2e0c17b634798176daae81c0fb
-    100100000: La nina_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: La nina_GO/La nina_GO
+  - first:
+      1: 100002
+    second: La nina_GO/La nina_GO/Layer 2 Copy 2
+  - first:
+      1: 100004
+    second: La nina_GO/La nina_GO/Muslo derecho
+  - first:
+      1: 100006
+    second: La nina_GO/La nina_GO/Muslo izquierdo
+  - first:
+      1: 100008
+    second: La nina_GO/La nina_GO/Pata derecha
+  - first:
+      1: 100010
+    second: La nina_GO/La nina_GO/Pata izquierda
+  - first:
+      1: 100012
+    second: La nina_GO/La nina_GO/Pelusita de brazo
+  - first:
+      1: 100014
+    second: La nina_GO/La nina_GO/Pierna derecha
+  - first:
+      1: 100016
+    second: La nina_GO/La nina_GO/Pierna izquierda
+  - first:
+      1: 100018
+    second: La nina_GO/La nina_GO/bone_1
+  - first:
+      1: 100020
+    second: La nina_GO/La nina_GO/bone_1/bone_2
+  - first:
+      1: 100022
+    second: La nina_GO/La nina_GO/bone_1/bone_3
+  - first:
+      1: 100024
+    second: La nina_GO/La nina_GO/bone_1/bone_3/bone_4
+  - first:
+      1: 100026
+    second: La nina_GO/La nina_GO/bone_1/bone_3/bone_4/bone_5
+  - first:
+      1: 100028
+    second: La nina_GO/La nina_GO/bone_1/bone_6
+  - first:
+      1: 100030
+    second: La nina_GO/La nina_GO/bone_1/bone_6/bone_7
+  - first:
+      1: 100032
+    second: La nina_GO/La nina_GO/bone_1/bone_6/bone_7/bone_8
+  - first:
+      4: 400000
+    second: La nina_GO/La nina_GO/Transform
+  - first:
+      4: 400002
+    second: La nina_GO/La nina_GO/Layer 2 Copy 2/Transform
+  - first:
+      4: 400004
+    second: La nina_GO/La nina_GO/Muslo derecho/Transform
+  - first:
+      4: 400006
+    second: La nina_GO/La nina_GO/Muslo izquierdo/Transform
+  - first:
+      4: 400008
+    second: La nina_GO/La nina_GO/Pata derecha/Transform
+  - first:
+      4: 400010
+    second: La nina_GO/La nina_GO/Pata izquierda/Transform
+  - first:
+      4: 400012
+    second: La nina_GO/La nina_GO/Pelusita de brazo/Transform
+  - first:
+      4: 400014
+    second: La nina_GO/La nina_GO/Pierna derecha/Transform
+  - first:
+      4: 400016
+    second: La nina_GO/La nina_GO/Pierna izquierda/Transform
+  - first:
+      4: 400018
+    second: La nina_GO/La nina_GO/bone_1/Transform
+  - first:
+      4: 400020
+    second: La nina_GO/La nina_GO/bone_1/bone_2/Transform
+  - first:
+      4: 400022
+    second: La nina_GO/La nina_GO/bone_1/bone_3/Transform
+  - first:
+      4: 400024
+    second: La nina_GO/La nina_GO/bone_1/bone_3/bone_4/Transform
+  - first:
+      4: 400026
+    second: La nina_GO/La nina_GO/bone_1/bone_3/bone_4/bone_5/Transform
+  - first:
+      4: 400028
+    second: La nina_GO/La nina_GO/bone_1/bone_6/Transform
+  - first:
+      4: 400030
+    second: La nina_GO/La nina_GO/bone_1/bone_6/bone_7/Transform
+  - first:
+      4: 400032
+    second: La nina_GO/La nina_GO/bone_1/bone_6/bone_7/bone_8/Transform
+  - first:
+      28: 2800000
+    second: La nina
+  - first:
+      114: 11400000
+    second: La nina_GO/La nina_GO/Layer 2 Copy 2/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400002
+    second: La nina_GO/La nina_GO/Muslo derecho/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400004
+    second: La nina_GO/La nina_GO/Muslo izquierdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400006
+    second: La nina_GO/La nina_GO/Pata derecha/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400008
+    second: La nina_GO/La nina_GO/Pata izquierda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400010
+    second: La nina_GO/La nina_GO/Pelusita de brazo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400012
+    second: La nina_GO/La nina_GO/Pierna derecha/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400014
+    second: La nina_GO/La nina_GO/Pierna izquierda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      212: 21200000
+    second: La nina_GO/La nina_GO/Layer 2 Copy 2/SpriteRenderer
+  - first:
+      212: 21200002
+    second: La nina_GO/La nina_GO/Muslo derecho/SpriteRenderer
+  - first:
+      212: 21200004
+    second: La nina_GO/La nina_GO/Muslo izquierdo/SpriteRenderer
+  - first:
+      212: 21200006
+    second: La nina_GO/La nina_GO/Pata derecha/SpriteRenderer
+  - first:
+      212: 21200008
+    second: La nina_GO/La nina_GO/Pata izquierda/SpriteRenderer
+  - first:
+      212: 21200010
+    second: La nina_GO/La nina_GO/Pelusita de brazo/SpriteRenderer
+  - first:
+      212: 21200012
+    second: La nina_GO/La nina_GO/Pierna derecha/SpriteRenderer
+  - first:
+      212: 21200014
+    second: La nina_GO/La nina_GO/Pierna izquierda/SpriteRenderer
+  - first:
+      213: 21300000
+    second: 948d1a5d73f90534bb2490ddc139deef
+  - first:
+      213: 21300002
+    second: 3bb443c76dc62914b984ec33325473c0
+  - first:
+      213: 21300004
+    second: 6b19a257039b87d4c965f45fb5a6d680
+  - first:
+      213: 21300006
+    second: f8ac3935a1ddfe14a832e2a4502cafcc
+  - first:
+      213: 21300008
+    second: e3a726281d8dac44e8f88d2d8df8e206
+  - first:
+      213: 21300010
+    second: 62ea738ffb2ec4e4daf15da9b69dd4e5
+  - first:
+      213: 21300012
+    second: 269e87d32cf01304ab3ded883c7fc50c
+  - first:
+      213: 21300014
+    second: 78ae0d2e0c17b634798176daae81c0fb
+  - first:
+      1001: 100100000
+    second: La nina_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -133,6 +254,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -156,6 +278,7 @@ ScriptedImporter:
       width: 525
       height: 696
     spriteID: 948d1a5d73f90534bb2490ddc139deef
+    internalID: 0
     spriteBone:
     - name: bone_2
       position: {x: 253.79059, y: -5.636963, z: 0}
@@ -716,6 +839,7 @@ ScriptedImporter:
       width: 605
       height: 569
     spriteID: 3bb443c76dc62914b984ec33325473c0
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 248.78595, y: 129.40637, z: 0}
@@ -1637,6 +1761,7 @@ ScriptedImporter:
       width: 217
       height: 198
     spriteID: 6b19a257039b87d4c965f45fb5a6d680
+    internalID: 0
     spriteBone:
     - name: bone_6
       position: {x: 103.913574, y: 107.48718, z: 0}
@@ -2090,6 +2215,7 @@ ScriptedImporter:
       width: 117
       height: 223
     spriteID: f8ac3935a1ddfe14a832e2a4502cafcc
+    internalID: 0
     spriteBone:
     - name: bone_7
       position: {x: 38.221436, y: 173.66748, z: 0}
@@ -2465,6 +2591,7 @@ ScriptedImporter:
       width: 166
       height: 222
     spriteID: e3a726281d8dac44e8f88d2d8df8e206
+    internalID: 0
     spriteBone:
     - name: bone_8
       position: {x: 101.92755, y: 189.9331, z: 0}
@@ -3355,6 +3482,7 @@ ScriptedImporter:
       width: 222
       height: 206
     spriteID: 62ea738ffb2ec4e4daf15da9b69dd4e5
+    internalID: 0
     spriteBone:
     - name: bone_3
       position: {x: 102.47797, y: 131.49188, z: 0}
@@ -3775,6 +3903,7 @@ ScriptedImporter:
       width: 173
       height: 226
     spriteID: 269e87d32cf01304ab3ded883c7fc50c
+    internalID: 0
     spriteBone:
     - name: bone_5
       position: {x: 111.3689, y: 163.52643, z: 0}
@@ -4556,6 +4685,7 @@ ScriptedImporter:
       width: 107
       height: 219
     spriteID: 78ae0d2e0c17b634798176daae81c0fb
+    internalID: 0
     spriteBone:
     - name: bone_4
       position: {x: 54.070557, y: 146.55829, z: 0}
@@ -4977,6 +5107,10 @@ ScriptedImporter:
   importedTextureWidth: 1024
   importedTextureHeight: 2048
   documentSize: {x: 1536, y: 2048}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 1024
   textureActualHeight: 2048
   spritePackingTag: 
@@ -5090,6 +5224,8 @@ ScriptedImporter:
         height: 696
       spriteId: 948d1a5d73f90534bb2490ddc139deef
       bones: 01000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 463
         y: 917
@@ -5097,6 +5233,8 @@ ScriptedImporter:
         height: 569
       spriteId: 3bb443c76dc62914b984ec33325473c0
       bones: 00000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 720
         y: 861
@@ -5104,6 +5242,8 @@ ScriptedImporter:
         height: 198
       spriteId: 6b19a257039b87d4c965f45fb5a6d680
       bones: 05000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 818
         y: 715
@@ -5111,6 +5251,8 @@ ScriptedImporter:
         height: 223
       spriteId: f8ac3935a1ddfe14a832e2a4502cafcc
       bones: 06000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 779
         y: 560
@@ -5118,6 +5260,8 @@ ScriptedImporter:
         height: 222
       spriteId: e3a726281d8dac44e8f88d2d8df8e206
       bones: 07000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 577
         y: 856
@@ -5125,6 +5269,8 @@ ScriptedImporter:
         height: 206
       spriteId: 62ea738ffb2ec4e4daf15da9b69dd4e5
       bones: 02000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 532
         y: 556
@@ -5132,6 +5278,8 @@ ScriptedImporter:
         height: 226
       spriteId: 269e87d32cf01304ab3ded883c7fc50c
       bones: 04000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 595
         y: 706
@@ -5139,7 +5287,10 @@ ScriptedImporter:
         height: 219
       spriteId: 78ae0d2e0c17b634798176daae81c0fb
       bones: 03000000
+      parentGroup: 0
+      order: 0
     dimension: {x: 0, y: 0}
+    characterGroups: []
   boneGOs:
   - go: {fileID: 100018, guid: 53aa796709727424d9471dbd13ce32ed, type: 3}
     index: 0
@@ -5160,3 +5311,4 @@ ScriptedImporter:
   generateGOHierarchy: 0
   textureAssetName: La nina
   prefabAssetName: La nina_GO
+  spriteLibAssetName: La nina Sprite Lib

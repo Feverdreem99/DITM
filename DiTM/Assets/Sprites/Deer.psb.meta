@@ -1,105 +1,300 @@
 fileFormatVersion: 2
 guid: 111d4115b18b73c4895108d437a3e0d4
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: Deer_GO/Deer_GO
-    100002: Deer_GO/Deer_GO/Anori
-    100004: Deer_GO/Deer_GO/Brazo Derecho
-    100006: Deer_GO/Deer_GO/Brazo Izquierdo
-    100008: Deer_GO/Deer_GO/Cabeza
-    100010: Deer_GO/Deer_GO/Cuello
-    100012: Deer_GO/Deer_GO/Layer 1
-    100014: Deer_GO/Deer_GO/Muslo derecho
-    100016: Deer_GO/Deer_GO/Muslo izquierdo
-    100018: Deer_GO/Deer_GO/Pata derecha
-    100020: Deer_GO/Deer_GO/Pata izquierda
-    100022: Deer_GO/Deer_GO/Pelusita de brazo
-    100024: Deer_GO/Deer_GO/Pierna derecha
-    100026: Deer_GO/Deer_GO/Pierna izquierda
-    100028: Deer_GO/Deer_GO/Tronco
-    100030: Deer_GO/Deer_GO/bone_1
-    100032: Deer_GO/Deer_GO/bone_1/bone_2
-    100034: Deer_GO/Deer_GO/bone_1/bone_2/bone_3
-    100036: Deer_GO/Deer_GO/bone_1/bone_4
-    100038: Deer_GO/Deer_GO/bone_1/bone_4/bone_5
-    100040: Deer_GO/Deer_GO/bone_1/bone_4/bone_5/bone_6
-    100042: Deer_GO/Deer_GO/bone_1/bone_7
-    100044: Deer_GO/Deer_GO/bone_1/bone_7/bone_8
-    100046: Deer_GO/Deer_GO/bone_1/bone_7/bone_8/bone_9
-    100048: Deer_GO/Deer_GO/bone_10
-    100050: Deer_GO/Deer_GO/bone_11
-    100052: Deer_GO/Deer_GO/bone_12
-    400000: Deer_GO/Deer_GO/Transform
-    400002: Deer_GO/Deer_GO/Anori/Transform
-    400004: Deer_GO/Deer_GO/Brazo Derecho/Transform
-    400006: Deer_GO/Deer_GO/Brazo Izquierdo/Transform
-    400008: Deer_GO/Deer_GO/Cabeza/Transform
-    400010: Deer_GO/Deer_GO/Cuello/Transform
-    400012: Deer_GO/Deer_GO/Layer 1/Transform
-    400014: Deer_GO/Deer_GO/Muslo derecho/Transform
-    400016: Deer_GO/Deer_GO/Muslo izquierdo/Transform
-    400018: Deer_GO/Deer_GO/Pata derecha/Transform
-    400020: Deer_GO/Deer_GO/Pata izquierda/Transform
-    400022: Deer_GO/Deer_GO/Pelusita de brazo/Transform
-    400024: Deer_GO/Deer_GO/Pierna derecha/Transform
-    400026: Deer_GO/Deer_GO/Pierna izquierda/Transform
-    400028: Deer_GO/Deer_GO/Tronco/Transform
-    400030: Deer_GO/Deer_GO/bone_1/Transform
-    400032: Deer_GO/Deer_GO/bone_1/bone_2/Transform
-    400034: Deer_GO/Deer_GO/bone_1/bone_2/bone_3/Transform
-    400036: Deer_GO/Deer_GO/bone_1/bone_4/Transform
-    400038: Deer_GO/Deer_GO/bone_1/bone_4/bone_5/Transform
-    400040: Deer_GO/Deer_GO/bone_1/bone_4/bone_5/bone_6/Transform
-    400042: Deer_GO/Deer_GO/bone_1/bone_7/Transform
-    400044: Deer_GO/Deer_GO/bone_1/bone_7/bone_8/Transform
-    400046: Deer_GO/Deer_GO/bone_1/bone_7/bone_8/bone_9/Transform
-    400048: Deer_GO/Deer_GO/bone_10/Transform
-    400050: Deer_GO/Deer_GO/bone_11/Transform
-    400052: Deer_GO/Deer_GO/bone_12/Transform
-    2800000: Deer
-    11400000: Deer_GO/Deer_GO/Anori/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400002: Deer_GO/Deer_GO/Brazo Derecho/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400004: Deer_GO/Deer_GO/Brazo Izquierdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400006: Deer_GO/Deer_GO/Cabeza/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400008: Deer_GO/Deer_GO/Cuello/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400010: Deer_GO/Deer_GO/Muslo derecho/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400012: Deer_GO/Deer_GO/Muslo izquierdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400014: Deer_GO/Deer_GO/Pata derecha/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400016: Deer_GO/Deer_GO/Pata izquierda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400018: Deer_GO/Deer_GO/Pelusita de brazo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400020: Deer_GO/Deer_GO/Pierna derecha/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400022: Deer_GO/Deer_GO/Pierna izquierda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400024: Deer_GO/Deer_GO/Tronco/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    21200000: Deer_GO/Deer_GO/Anori/SpriteRenderer
-    21200002: Deer_GO/Deer_GO/Brazo Derecho/SpriteRenderer
-    21200004: Deer_GO/Deer_GO/Brazo Izquierdo/SpriteRenderer
-    21200006: Deer_GO/Deer_GO/Cabeza/SpriteRenderer
-    21200008: Deer_GO/Deer_GO/Cuello/SpriteRenderer
-    21200010: Deer_GO/Deer_GO/Layer 1/SpriteRenderer
-    21200012: Deer_GO/Deer_GO/Muslo derecho/SpriteRenderer
-    21200014: Deer_GO/Deer_GO/Muslo izquierdo/SpriteRenderer
-    21200016: Deer_GO/Deer_GO/Pata derecha/SpriteRenderer
-    21200018: Deer_GO/Deer_GO/Pata izquierda/SpriteRenderer
-    21200020: Deer_GO/Deer_GO/Pelusita de brazo/SpriteRenderer
-    21200022: Deer_GO/Deer_GO/Pierna derecha/SpriteRenderer
-    21200024: Deer_GO/Deer_GO/Pierna izquierda/SpriteRenderer
-    21200026: Deer_GO/Deer_GO/Tronco/SpriteRenderer
-    21300000: 0f15c9294260a2d43b22c481ca9c22ea
-    21300002: d0abe5609c8a0a84cbd44ef8d88c7929
-    21300004: 2bfbe8d056d06714f9684561b3391210
-    21300006: 722f70ea4eb2d184e9d89e3c58fb373b
-    21300008: 3f5453ff08895624198c29b36ce6f6b3
-    21300010: ca65e06396ace7b408fed1a0ba806603
-    21300012: 5e8b095e0e603494b96301491f0c6ca3
-    21300014: 82c891d2ce9424d469e168dafd6bd943
-    21300016: 5b88697d652713a4f961f76d265515bb
-    21300018: 46997e0270380b54cab3bdc1a01a5f89
-    21300020: 66d9c61c9ec721d4d96af635363509ef
-    21300022: 2bbedbb661af97640bba5cc3a0ceb5ee
-    21300024: ea61b9b76252a1d4aa14f040ca0d6a20
-    21300026: 71326c9cc013abc4a8143278d45023ca
-    100100000: Deer_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Deer_GO/Deer_GO
+  - first:
+      1: 100002
+    second: Deer_GO/Deer_GO/Anori
+  - first:
+      1: 100004
+    second: Deer_GO/Deer_GO/Brazo Derecho
+  - first:
+      1: 100006
+    second: Deer_GO/Deer_GO/Brazo Izquierdo
+  - first:
+      1: 100008
+    second: Deer_GO/Deer_GO/Cabeza
+  - first:
+      1: 100010
+    second: Deer_GO/Deer_GO/Cuello
+  - first:
+      1: 100012
+    second: Deer_GO/Deer_GO/Layer 1
+  - first:
+      1: 100014
+    second: Deer_GO/Deer_GO/Muslo derecho
+  - first:
+      1: 100016
+    second: Deer_GO/Deer_GO/Muslo izquierdo
+  - first:
+      1: 100018
+    second: Deer_GO/Deer_GO/Pata derecha
+  - first:
+      1: 100020
+    second: Deer_GO/Deer_GO/Pata izquierda
+  - first:
+      1: 100022
+    second: Deer_GO/Deer_GO/Pelusita de brazo
+  - first:
+      1: 100024
+    second: Deer_GO/Deer_GO/Pierna derecha
+  - first:
+      1: 100026
+    second: Deer_GO/Deer_GO/Pierna izquierda
+  - first:
+      1: 100028
+    second: Deer_GO/Deer_GO/Tronco
+  - first:
+      1: 100030
+    second: Deer_GO/Deer_GO/bone_1
+  - first:
+      1: 100032
+    second: Deer_GO/Deer_GO/bone_1/bone_2
+  - first:
+      1: 100034
+    second: Deer_GO/Deer_GO/bone_1/bone_2/bone_3
+  - first:
+      1: 100036
+    second: Deer_GO/Deer_GO/bone_1/bone_4
+  - first:
+      1: 100038
+    second: Deer_GO/Deer_GO/bone_1/bone_4/bone_5
+  - first:
+      1: 100040
+    second: Deer_GO/Deer_GO/bone_1/bone_4/bone_5/bone_6
+  - first:
+      1: 100042
+    second: Deer_GO/Deer_GO/bone_1/bone_7
+  - first:
+      1: 100044
+    second: Deer_GO/Deer_GO/bone_1/bone_7/bone_8
+  - first:
+      1: 100046
+    second: Deer_GO/Deer_GO/bone_1/bone_7/bone_8/bone_9
+  - first:
+      1: 100048
+    second: Deer_GO/Deer_GO/bone_10
+  - first:
+      1: 100050
+    second: Deer_GO/Deer_GO/bone_11
+  - first:
+      1: 100052
+    second: Deer_GO/Deer_GO/bone_12
+  - first:
+      4: 400000
+    second: Deer_GO/Deer_GO/Transform
+  - first:
+      4: 400002
+    second: Deer_GO/Deer_GO/Anori/Transform
+  - first:
+      4: 400004
+    second: Deer_GO/Deer_GO/Brazo Derecho/Transform
+  - first:
+      4: 400006
+    second: Deer_GO/Deer_GO/Brazo Izquierdo/Transform
+  - first:
+      4: 400008
+    second: Deer_GO/Deer_GO/Cabeza/Transform
+  - first:
+      4: 400010
+    second: Deer_GO/Deer_GO/Cuello/Transform
+  - first:
+      4: 400012
+    second: Deer_GO/Deer_GO/Layer 1/Transform
+  - first:
+      4: 400014
+    second: Deer_GO/Deer_GO/Muslo derecho/Transform
+  - first:
+      4: 400016
+    second: Deer_GO/Deer_GO/Muslo izquierdo/Transform
+  - first:
+      4: 400018
+    second: Deer_GO/Deer_GO/Pata derecha/Transform
+  - first:
+      4: 400020
+    second: Deer_GO/Deer_GO/Pata izquierda/Transform
+  - first:
+      4: 400022
+    second: Deer_GO/Deer_GO/Pelusita de brazo/Transform
+  - first:
+      4: 400024
+    second: Deer_GO/Deer_GO/Pierna derecha/Transform
+  - first:
+      4: 400026
+    second: Deer_GO/Deer_GO/Pierna izquierda/Transform
+  - first:
+      4: 400028
+    second: Deer_GO/Deer_GO/Tronco/Transform
+  - first:
+      4: 400030
+    second: Deer_GO/Deer_GO/bone_1/Transform
+  - first:
+      4: 400032
+    second: Deer_GO/Deer_GO/bone_1/bone_2/Transform
+  - first:
+      4: 400034
+    second: Deer_GO/Deer_GO/bone_1/bone_2/bone_3/Transform
+  - first:
+      4: 400036
+    second: Deer_GO/Deer_GO/bone_1/bone_4/Transform
+  - first:
+      4: 400038
+    second: Deer_GO/Deer_GO/bone_1/bone_4/bone_5/Transform
+  - first:
+      4: 400040
+    second: Deer_GO/Deer_GO/bone_1/bone_4/bone_5/bone_6/Transform
+  - first:
+      4: 400042
+    second: Deer_GO/Deer_GO/bone_1/bone_7/Transform
+  - first:
+      4: 400044
+    second: Deer_GO/Deer_GO/bone_1/bone_7/bone_8/Transform
+  - first:
+      4: 400046
+    second: Deer_GO/Deer_GO/bone_1/bone_7/bone_8/bone_9/Transform
+  - first:
+      4: 400048
+    second: Deer_GO/Deer_GO/bone_10/Transform
+  - first:
+      4: 400050
+    second: Deer_GO/Deer_GO/bone_11/Transform
+  - first:
+      4: 400052
+    second: Deer_GO/Deer_GO/bone_12/Transform
+  - first:
+      28: 2800000
+    second: Deer
+  - first:
+      114: 11400000
+    second: Deer_GO/Deer_GO/Anori/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400002
+    second: Deer_GO/Deer_GO/Brazo Derecho/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400004
+    second: Deer_GO/Deer_GO/Brazo Izquierdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400006
+    second: Deer_GO/Deer_GO/Cabeza/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400008
+    second: Deer_GO/Deer_GO/Cuello/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400010
+    second: Deer_GO/Deer_GO/Muslo derecho/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400012
+    second: Deer_GO/Deer_GO/Muslo izquierdo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400014
+    second: Deer_GO/Deer_GO/Pata derecha/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400016
+    second: Deer_GO/Deer_GO/Pata izquierda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400018
+    second: Deer_GO/Deer_GO/Pelusita de brazo/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400020
+    second: Deer_GO/Deer_GO/Pierna derecha/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400022
+    second: Deer_GO/Deer_GO/Pierna izquierda/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400024
+    second: Deer_GO/Deer_GO/Tronco/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      212: 21200000
+    second: Deer_GO/Deer_GO/Anori/SpriteRenderer
+  - first:
+      212: 21200002
+    second: Deer_GO/Deer_GO/Brazo Derecho/SpriteRenderer
+  - first:
+      212: 21200004
+    second: Deer_GO/Deer_GO/Brazo Izquierdo/SpriteRenderer
+  - first:
+      212: 21200006
+    second: Deer_GO/Deer_GO/Cabeza/SpriteRenderer
+  - first:
+      212: 21200008
+    second: Deer_GO/Deer_GO/Cuello/SpriteRenderer
+  - first:
+      212: 21200010
+    second: Deer_GO/Deer_GO/Layer 1/SpriteRenderer
+  - first:
+      212: 21200012
+    second: Deer_GO/Deer_GO/Muslo derecho/SpriteRenderer
+  - first:
+      212: 21200014
+    second: Deer_GO/Deer_GO/Muslo izquierdo/SpriteRenderer
+  - first:
+      212: 21200016
+    second: Deer_GO/Deer_GO/Pata derecha/SpriteRenderer
+  - first:
+      212: 21200018
+    second: Deer_GO/Deer_GO/Pata izquierda/SpriteRenderer
+  - first:
+      212: 21200020
+    second: Deer_GO/Deer_GO/Pelusita de brazo/SpriteRenderer
+  - first:
+      212: 21200022
+    second: Deer_GO/Deer_GO/Pierna derecha/SpriteRenderer
+  - first:
+      212: 21200024
+    second: Deer_GO/Deer_GO/Pierna izquierda/SpriteRenderer
+  - first:
+      212: 21200026
+    second: Deer_GO/Deer_GO/Tronco/SpriteRenderer
+  - first:
+      213: 21300000
+    second: 0f15c9294260a2d43b22c481ca9c22ea
+  - first:
+      213: 21300002
+    second: d0abe5609c8a0a84cbd44ef8d88c7929
+  - first:
+      213: 21300004
+    second: 2bfbe8d056d06714f9684561b3391210
+  - first:
+      213: 21300006
+    second: 722f70ea4eb2d184e9d89e3c58fb373b
+  - first:
+      213: 21300008
+    second: 3f5453ff08895624198c29b36ce6f6b3
+  - first:
+      213: 21300010
+    second: ca65e06396ace7b408fed1a0ba806603
+  - first:
+      213: 21300012
+    second: 5e8b095e0e603494b96301491f0c6ca3
+  - first:
+      213: 21300014
+    second: 82c891d2ce9424d469e168dafd6bd943
+  - first:
+      213: 21300016
+    second: 5b88697d652713a4f961f76d265515bb
+  - first:
+      213: 21300018
+    second: 46997e0270380b54cab3bdc1a01a5f89
+  - first:
+      213: 21300020
+    second: 66d9c61c9ec721d4d96af635363509ef
+  - first:
+      213: 21300022
+    second: 2bbedbb661af97640bba5cc3a0ceb5ee
+  - first:
+      213: 21300024
+    second: ea61b9b76252a1d4aa14f040ca0d6a20
+  - first:
+      213: 21300026
+    second: 71326c9cc013abc4a8143278d45023ca
+  - first:
+      1001: 100100000
+    second: Deer_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -170,6 +365,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -193,6 +389,7 @@ ScriptedImporter:
       width: 525
       height: 658
     spriteID: 0f15c9294260a2d43b22c481ca9c22ea
+    internalID: 0
     spriteBone:
     - name: bone_3
       position: {x: 304.3474, y: 59.431274, z: 0}
@@ -734,6 +931,7 @@ ScriptedImporter:
       width: 241
       height: 383
     spriteID: d0abe5609c8a0a84cbd44ef8d88c7929
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 79.20239, y: -259.76105, z: 0}
@@ -1505,6 +1703,7 @@ ScriptedImporter:
       width: 188
       height: 176
     spriteID: 2bfbe8d056d06714f9684561b3391210
+    internalID: 0
     spriteBone:
     - name: bone_10
       position: {x: 51.92383, y: 81.21399, z: 0}
@@ -2078,6 +2277,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 722f70ea4eb2d184e9d89e3c58fb373b
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2099,6 +2299,7 @@ ScriptedImporter:
       width: 238
       height: 364
     spriteID: 3f5453ff08895624198c29b36ce6f6b3
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: -100.79761, y: 59.238953, z: 0}
@@ -2861,6 +3062,7 @@ ScriptedImporter:
       width: 1257
       height: 909
     spriteID: ca65e06396ace7b408fed1a0ba806603
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 906.2024, y: 107.23895, z: 0}
@@ -3967,6 +4169,7 @@ ScriptedImporter:
       width: 166
       height: 286
     spriteID: 5e8b095e0e603494b96301491f0c6ca3
+    internalID: 0
     spriteBone:
     - name: bone_11
       position: {x: 136.3468, y: 37.95221, z: 0}
@@ -4417,6 +4620,7 @@ ScriptedImporter:
       width: 404
       height: 569
     spriteID: 82c891d2ce9424d469e168dafd6bd943
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 149.2024, y: 105.23901, z: 0}
@@ -5398,6 +5602,7 @@ ScriptedImporter:
       width: 217
       height: 198
     spriteID: 5b88697d652713a4f961f76d265515bb
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 9.202393, y: 161.23895, z: 0}
@@ -5867,6 +6072,7 @@ ScriptedImporter:
       width: 166
       height: 222
     spriteID: 46997e0270380b54cab3bdc1a01a5f89
+    internalID: 0
     spriteBone:
     - name: bone_6
       position: {x: 93.600586, y: 219.76538, z: 0}
@@ -6736,6 +6942,7 @@ ScriptedImporter:
       width: 117
       height: 223
     spriteID: 66d9c61c9ec721d4d96af635363509ef
+    internalID: 0
     spriteBone:
     - name: bone_5
       position: {x: 41.564453, y: 179.48413, z: 0}
@@ -7131,6 +7338,7 @@ ScriptedImporter:
       width: 222
       height: 206
     spriteID: 2bbedbb661af97640bba5cc3a0ceb5ee
+    internalID: 0
     spriteBone:
     - name: bone_7
       position: {x: 68.77051, y: 158.41718, z: 0}
@@ -7551,6 +7759,7 @@ ScriptedImporter:
       width: 173
       height: 226
     spriteID: ea61b9b76252a1d4aa14f040ca0d6a20
+    internalID: 0
     spriteBone:
     - name: bone_9
       position: {x: 109.770386, y: 203.65674, z: 0}
@@ -8322,6 +8531,7 @@ ScriptedImporter:
       width: 107
       height: 219
     spriteID: 71326c9cc013abc4a8143278d45023ca
+    internalID: 0
     spriteBone:
     - name: bone_8
       position: {x: 130.38791, y: 0.000009524116, z: 0}
@@ -8768,6 +8978,10 @@ ScriptedImporter:
   importedTextureWidth: 2048
   importedTextureHeight: 2048
   documentSize: {x: 1536, y: 2048}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 2048
   textureActualHeight: 2048
   spritePackingTag: 
@@ -8943,6 +9157,8 @@ ScriptedImporter:
         height: 658
       spriteId: 0f15c9294260a2d43b22c481ca9c22ea
       bones: 02000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 827
         y: 1090
@@ -8950,6 +9166,8 @@ ScriptedImporter:
         height: 383
       spriteId: d0abe5609c8a0a84cbd44ef8d88c7929
       bones: 0000000001000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 1042
         y: 1028
@@ -8957,6 +9175,8 @@ ScriptedImporter:
         height: 176
       spriteId: 2bfbe8d056d06714f9684561b3391210
       bones: 09000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 1536
         y: 2048
@@ -8964,6 +9184,8 @@ ScriptedImporter:
         height: 0
       spriteId: 722f70ea4eb2d184e9d89e3c58fb373b
       bones: 
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 1007
         y: 771
@@ -8971,6 +9193,8 @@ ScriptedImporter:
         height: 364
       spriteId: 3f5453ff08895624198c29b36ce6f6b3
       bones: 0000000009000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 0
         y: 723
@@ -8978,6 +9202,8 @@ ScriptedImporter:
         height: 909
       spriteId: ca65e06396ace7b408fed1a0ba806603
       bones: 000000000b000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 640
         y: 891
@@ -8985,6 +9211,8 @@ ScriptedImporter:
         height: 286
       spriteId: 5e8b095e0e603494b96301491f0c6ca3
       bones: 0a000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 757
         y: 725
@@ -8992,6 +9220,8 @@ ScriptedImporter:
         height: 569
       spriteId: 82c891d2ce9424d469e168dafd6bd943
       bones: 00000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 897
         y: 669
@@ -8999,6 +9229,8 @@ ScriptedImporter:
         height: 198
       spriteId: 5b88697d652713a4f961f76d265515bb
       bones: 0000000003000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 956
         y: 368
@@ -9006,6 +9238,8 @@ ScriptedImporter:
         height: 222
       spriteId: 46997e0270380b54cab3bdc1a01a5f89
       bones: 05000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 995
         y: 523
@@ -9013,6 +9247,8 @@ ScriptedImporter:
         height: 223
       spriteId: 66d9c61c9ec721d4d96af635363509ef
       bones: 04000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 754
         y: 664
@@ -9020,6 +9256,8 @@ ScriptedImporter:
         height: 206
       spriteId: 2bbedbb661af97640bba5cc3a0ceb5ee
       bones: 06000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 713
         y: 345
@@ -9027,6 +9265,8 @@ ScriptedImporter:
         height: 226
       spriteId: ea61b9b76252a1d4aa14f040ca0d6a20
       bones: 08000000
+      parentGroup: 0
+      order: 0
     - spritePosition:
         x: 772
         y: 514
@@ -9034,7 +9274,10 @@ ScriptedImporter:
         height: 219
       spriteId: 71326c9cc013abc4a8143278d45023ca
       bones: 0700000006000000
+      parentGroup: 0
+      order: 0
     dimension: {x: 0, y: 0}
+    characterGroups: []
   boneGOs:
   - go: {fileID: 100030, guid: 111d4115b18b73c4895108d437a3e0d4, type: 3}
     index: 0
@@ -9063,3 +9306,4 @@ ScriptedImporter:
   generateGOHierarchy: 0
   textureAssetName: Deer
   prefabAssetName: Deer_GO
+  spriteLibAssetName: Deer Sprite Lib

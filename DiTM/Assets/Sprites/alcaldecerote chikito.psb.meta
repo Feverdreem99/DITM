@@ -1,43 +1,7 @@
 fileFormatVersion: 2
-guid: 2482878fd0041664c93a677f2f3a3703
+guid: a5be72bc27eb55e44817df21d403e395
 ScriptedImporter:
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: la 44_GO/la 44_GO
-  - first:
-      1: 100002
-    second: la 44_GO/la 44_GO/chasis
-  - first:
-      1: 100004
-    second: la 44_GO/la 44_GO/llantas
-  - first:
-      4: 400000
-    second: la 44_GO/la 44_GO/Transform
-  - first:
-      4: 400002
-    second: la 44_GO/la 44_GO/chasis/Transform
-  - first:
-      4: 400004
-    second: la 44_GO/la 44_GO/llantas/Transform
-  - first:
-      28: 2800000
-    second: la 44
-  - first:
-      212: 21200000
-    second: la 44_GO/la 44_GO/chasis/SpriteRenderer
-  - first:
-      212: 21200002
-    second: la 44_GO/la 44_GO/llantas/SpriteRenderer
-  - first:
-      213: 21300000
-    second: f7f64c49fd8eddc4cb31edc55df90817
-  - first:
-      213: 21300002
-    second: f227128ba4d2e7d4292fc193d6eb0b42
-  - first:
-      1001: 100100000
-    second: la 44_GO
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -122,7 +86,29 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: chasis
+  - name: Capa 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1016
+      width: 453
+      height: 546
+    spriteID: 18ccae20ed3034e488fd136ca9a9028d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -474, y: -66}
+  - name: Layer 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -131,9 +117,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 710
-      height: 399
-    spriteID: f7f64c49fd8eddc4cb31edc55df90817
+      width: 597
+      height: 1004
+    spriteID: 5fcc0614ffe5d44499df3a47ca4e1b6d
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -143,62 +129,40 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -189, y: -63}
-  - name: llantas
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 411
-      width: 508
-      height: 235
-    spriteID: f227128ba4d2e7d4292fc193d6eb0b42
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -244, y: 373}
+    uvTransform: {x: -402, y: -214}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 1024
-  importedTextureHeight: 1024
-  documentSize: {x: 970, y: 545}
+  importedTextureHeight: 2048
+  documentSize: {x: 1520, y: 2040}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
   textureActualWidth: 1024
-  textureActualHeight: 1024
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: chasis
-    spriteName: chasis
+  - name: Capa 1
+    spriteName: Capa 1
     isGroup: 0
     parentIndex: -1
-    spriteID: f7f64c49fd8eddc4cb31edc55df90817
+    spriteID: 18ccae20ed3034e488fd136ca9a9028d
+    layerID: 7
+    mosaicPosition: {x: 4, y: 1016}
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5fcc0614ffe5d44499df3a47ca4e1b6d
     layerID: 6
     mosaicPosition: {x: 4, y: 4}
-  - name: llantas
-    spriteName: llantas
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f227128ba4d2e7d4292fc193d6eb0b42
-    layerID: 4
-    mosaicPosition: {x: 4, y: 411}
   characterData:
     bones: []
     parts: []
@@ -206,6 +170,6 @@ ScriptedImporter:
     characterGroups: []
   boneGOs: []
   generateGOHierarchy: 0
-  textureAssetName: la 44
-  prefabAssetName: la 44_GO
-  spriteLibAssetName: la 44 Sprite Lib
+  textureAssetName: alcaldecerote chikito Texture
+  prefabAssetName: alcaldecerote chikito Prefab
+  spriteLibAssetName: alcaldecerote chikito Sprite Lib

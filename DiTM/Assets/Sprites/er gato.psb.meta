@@ -1,43 +1,7 @@
 fileFormatVersion: 2
-guid: 2482878fd0041664c93a677f2f3a3703
+guid: e9fa6534f61f44b4ca08a71584d5fb29
 ScriptedImporter:
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: la 44_GO/la 44_GO
-  - first:
-      1: 100002
-    second: la 44_GO/la 44_GO/chasis
-  - first:
-      1: 100004
-    second: la 44_GO/la 44_GO/llantas
-  - first:
-      4: 400000
-    second: la 44_GO/la 44_GO/Transform
-  - first:
-      4: 400002
-    second: la 44_GO/la 44_GO/chasis/Transform
-  - first:
-      4: 400004
-    second: la 44_GO/la 44_GO/llantas/Transform
-  - first:
-      28: 2800000
-    second: la 44
-  - first:
-      212: 21200000
-    second: la 44_GO/la 44_GO/chasis/SpriteRenderer
-  - first:
-      212: 21200002
-    second: la 44_GO/la 44_GO/llantas/SpriteRenderer
-  - first:
-      213: 21300000
-    second: f7f64c49fd8eddc4cb31edc55df90817
-  - first:
-      213: 21300002
-    second: f227128ba4d2e7d4292fc193d6eb0b42
-  - first:
-      1001: 100100000
-    second: la 44_GO
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -122,7 +86,51 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: chasis
+  - name: Layer 1 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1459
+      width: 500
+      height: 513
+    spriteID: 4ce1ac4ffc1e7e94d802553c46475bab
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -499, y: 364}
+  - name: Layer 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1349
+      y: 4
+      width: 675
+      height: 809
+    spriteID: c3dae8a9acd58cd478f630555976dc90
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 942, y: -643}
+  - name: Layer 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -131,9 +139,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 710
-      height: 399
-    spriteID: f7f64c49fd8eddc4cb31edc55df90817
+      width: 660
+      height: 1447
+    spriteID: fc1e463926e38c84cac69946df47ce40
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -143,19 +151,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -189, y: -63}
-  - name: llantas
+    uvTransform: {x: -412, y: -179}
+  - name: Layer 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 411
-      width: 508
-      height: 235
-    spriteID: f227128ba4d2e7d4292fc193d6eb0b42
+      x: 672
+      y: 4
+      width: 669
+      height: 1420
+    spriteID: f8a85ed950ea17543b3730520490ea80
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -165,40 +173,83 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -244, y: 373}
+    uvTransform: {x: 261, y: -181}
+  - name: Layer 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 1459
+      width: 0
+      height: 0
+    spriteID: 02f771842372844418132d2a48fc0328
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1008, y: -581}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 1024
-  documentSize: {x: 970, y: 545}
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1520, y: 2040}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 1024
-  textureActualHeight: 1024
+  textureActualWidth: 2048
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: chasis
-    spriteName: chasis
+  - name: Layer 1 Copy
+    spriteName: Layer 1 Copy
     isGroup: 0
     parentIndex: -1
-    spriteID: f7f64c49fd8eddc4cb31edc55df90817
-    layerID: 6
+    spriteID: 4ce1ac4ffc1e7e94d802553c46475bab
+    layerID: -394530829
+    mosaicPosition: {x: 4, y: 1459}
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c3dae8a9acd58cd478f630555976dc90
+    layerID: -7500616
+    mosaicPosition: {x: 1349, y: 4}
+  - name: Layer 3
+    spriteName: Layer 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fc1e463926e38c84cac69946df47ce40
+    layerID: -7500618
     mosaicPosition: {x: 4, y: 4}
-  - name: llantas
-    spriteName: llantas
+  - name: Layer 4
+    spriteName: Layer 4
     isGroup: 0
     parentIndex: -1
-    spriteID: f227128ba4d2e7d4292fc193d6eb0b42
-    layerID: 4
-    mosaicPosition: {x: 4, y: 411}
+    spriteID: f8a85ed950ea17543b3730520490ea80
+    layerID: -7500613
+    mosaicPosition: {x: 672, y: 4}
+  - name: Layer 2
+    spriteName: Layer 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 02f771842372844418132d2a48fc0328
+    layerID: -7500619
+    mosaicPosition: {x: 512, y: 1459}
   characterData:
     bones: []
     parts: []
@@ -206,6 +257,6 @@ ScriptedImporter:
     characterGroups: []
   boneGOs: []
   generateGOHierarchy: 0
-  textureAssetName: la 44
-  prefabAssetName: la 44_GO
-  spriteLibAssetName: la 44 Sprite Lib
+  textureAssetName: er gato Texture
+  prefabAssetName: er gato Prefab
+  spriteLibAssetName: er gato Sprite Lib
