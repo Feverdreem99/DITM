@@ -24,13 +24,13 @@ public class ControladorMovimiento : MonoBehaviour
     void Update()
     {
         Jump();
-        Attack();
+        
         float moveInput= Input.GetAxisRaw("Horizontal");
         rb.velocity=new Vector2(moveInput*speed, rb.velocity.y);
         Vector3 movement= new Vector3(Input.GetAxis("Horizontal"),0f,0f);
         transform.position+= movement*Time.deltaTime*moveSpeed;
         
-        if (moveInput==0)
+        if (moveInput==0 || isGrounded==false)
         {
             anim.SetBool("Moviendose",false);
         }
@@ -52,31 +52,29 @@ public class ControladorMovimiento : MonoBehaviour
         void Jump()
         {
             if (Input.GetButtonDown("Jump") && isGrounded==true)
+            {   
+                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,7f), ForceMode2D.Impulse);
+            }
+            else if(isGrounded==false)
             {
-                anim.SetBool("Saltando",true);
-                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,5f), ForceMode2D.Impulse);
                 StartCoroutine(stopJump());
             }
             
+
+            
         }
 
+        
+    
         IEnumerator stopJump()
         {
-            yield return new WaitForSecondsRealtime(1);
-            anim.SetBool("Saltando",false);
+                anim.SetBool("Saltando",true);
+                yield return new WaitForSeconds(.1f);
+                anim.SetBool("Saltando",false);
+
         }
 
 
-        void Attack()
-        {
-            if(Input.GetKeyDown("z"))
-            {
-                anim.SetBool("Atacando",true);
-            }
-            if (Input.GetKeyUp("z"))
-            {
-                anim.SetBool("Atacando",false);
-            }
-        }
+        
     }
 }
