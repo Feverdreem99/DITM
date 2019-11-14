@@ -9,6 +9,7 @@ public class ControladorEnemigo : MonoBehaviour
   public float moveSpeed = 5f;
   public int health;
   private Rigidbody2D rb;
+  public int direction;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,15 @@ public class ControladorEnemigo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       transform.position += Vector3.right*Time.deltaTime;
+        if(direction==0)
+        {
+            transform.position -= Vector3.right*Time.deltaTime;
+        }
+        else if(direction==1)
+        {
+            transform.position += Vector3.right*Time.deltaTime;
+        }
+       
 
        if (health<=0)
        {

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - piso
   - Enemigo
+  - Platform
   layers:
   - Default
   - TransparentFX
