@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControladorMovimiento : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class ControladorMovimiento : MonoBehaviour
   private Rigidbody2D rb;
   private Animator anim;
   public bool isGrounded=false;
+  public bool playerMoves=true;
+  public int playerHealth=3;
+  public string escena;
 
 
     // Start is called before the first frame update
@@ -51,16 +55,15 @@ public class ControladorMovimiento : MonoBehaviour
 
         void Jump()
         {
-            if (Input.GetButtonDown("Jump") && isGrounded==true)
+            if (Input.GetButtonDown("Jump") && isGrounded==true && playerMoves==true)
             {   
-                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,7f), ForceMode2D.Impulse);
+                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,9f), ForceMode2D.Impulse);
             }
             else if(isGrounded==false)
             {
                 StartCoroutine(stopJump());
-            }
-            
 
+            }
             
         }
 
@@ -73,6 +76,8 @@ public class ControladorMovimiento : MonoBehaviour
                 anim.SetBool("Saltando",false);
 
         }
+
+     
 
 
         

@@ -10,6 +10,7 @@ public class dialoguemanage : MonoBehaviour
     private int index;
     public Animator anim;
     public float typingSpeed;
+    public bool dStart=false;
 
     
     // Start is called before the first frame update
@@ -45,19 +46,11 @@ public class dialoguemanage : MonoBehaviour
         }
         else
         {
-            anim.SetBool("IsDone",true);
+            anim.SetBool("dialogueStart",false);
             textDisplay.text="";
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D col) 
-    {
-        if (col.CompareTag("Player") && Input.GetKeyDown("z"))
-        {
-            anim.SetBool("InRange",true);
-        }
-        
-    }
 
 
     // Update is called once per frame

@@ -23,6 +23,7 @@ public class Pasarescena : MonoBehaviour
         {
             Scenepass();
         }
+        
     }
 
     // Update is called once per frame
